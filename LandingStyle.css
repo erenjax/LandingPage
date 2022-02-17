@@ -18,6 +18,11 @@ div {
 h2 {
     text-align: center;
 }
+h1 {
+    text-align: center;
+    color:rgb(41, 17, 68);
+    background-color: rgb(248, 162, 3);
+}
 /*css styles via ID attributes */
 #opposite-div {
     color:rgb(248, 162, 3);
