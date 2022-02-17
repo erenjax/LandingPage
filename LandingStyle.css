@@ -20,8 +20,9 @@ h2 {
 }
 /*css styles via ID attributes */
 #opposite-div {
-    background-color:rgb(41, 17, 68);
     color:rgb(228, 177, 255);
+    /*background-color:rgb(41, 17, 68);*/
+    
 }
 /*css styles via class attributes */ 
 .navbar ul {
