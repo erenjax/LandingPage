@@ -10,23 +10,24 @@ body {
 }
 p {
     text-align: center;
-    color:rgb(41, 17, 68);
+    color:white;
+    background-color:rgb(67, 63, 70);
 }
 div {
-    background-color: rgb(228, 177, 255);
+    background-color: rgb(67, 63, 70);
 }
 h2 {
     text-align: center;
 }
 h1 {
     text-align: center;
-    color:rgb(41, 17, 68);
-    background-color: rgb(248, 162, 3);
+    color:white;
+    background-color: black;
 }
 /*css styles via ID attributes */
 #opposite-div {
-    color:rgb(248, 162, 3);
-    background-color:rgb(41, 17, 68);
+    color:black;
+    background-color:white;
     
 }
 /*css styles via class attributes */ 
@@ -35,16 +36,16 @@ h1 {
         Remove bullet points.
     */
     list-style: none;
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
     /* 
         No padding.
     */
-    padding: 0;
+    padding: 16px;
     /* 
         For navbars use background color that stands out.
     */
-    background-color: rgb(41, 17, 68);
+    background-color: black);
     text-align: center;
 }
 
@@ -52,23 +53,23 @@ h1 {
     Style individual list items.
 */
 .navbar li {
-    width: 150 px;
-    background-color: rgb(255, 144, 17);
-    border: 1px solid rgb(117, 65, 151);
+    width: 150px;
+    background-color: black;
+    border: 1px solid white;
     /* 
         Show the navbar elements next to each other instead of on top of each 
         other. 
     */
-    padding: 10px;
+    padding: 16px;
     display: inline-block;
-    line-height: 40px;
+    line-height: 24px;
 }
 
 /* 
     Style links in navbar.
 */
 .navbar a {
-    color:rgb(117, 65, 151);
+    color:white;
     text-decoration: none;
 }
 
@@ -83,10 +84,11 @@ input {
     display: block;
 }
 
-.wrapper{
+.row{
     vertical-align: middle;
     display:flex;
 }
-/*.wapper>div:first-child{
-    margin-right:20px;
-}*/
+.column{
+    flex: 33.33%;
+    padding: 8px
+}
