@@ -84,8 +84,9 @@ input {
 }
 
 .wrapper{
+    vertical-align: middle;
     display:flex;
 }
-.wapper>div:first-child{
+/*.wapper>div:first-child{
     margin-right:20px;
-}
+}*/
