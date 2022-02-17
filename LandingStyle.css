@@ -21,7 +21,7 @@ h2 {
 /*css styles via ID attributes */
 #opposite-div {
     color:rgb(248, 162, 3);
-    /*background-color:rgb(41, 17, 68);*/
+    background-color:rgb(41, 17, 68);
     
 }
 /*css styles via class attributes */ 
