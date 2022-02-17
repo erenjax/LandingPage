@@ -18,6 +18,12 @@ div {
 h2 {
     text-align: center;
 }
+/*css styles via ID attributes */
+#opposite-div {
+    background-color:rgb(41, 17, 68);
+    color:rgb(228, 177, 255);
+}
+/*css styles via class attributes */ 
 .navbar ul {
     /* 
         Remove bullet points.
