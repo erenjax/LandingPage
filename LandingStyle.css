@@ -44,7 +44,7 @@ h1 {
     /* 
         For navbars use background color that stands out.
     */
-    background-color: rgb(228, 177, 255);
+    background-color: rgb(41, 17, 68);
     text-align: center;
 }
 
@@ -81,4 +81,11 @@ input {
         Show different input on top of each other instead of next to each other.
     */
     display: block;
+}
+
+.wrapper{
+    display:flex;
+}
+.wapper>div:first-child{
+    margin-right:20px;
 }
