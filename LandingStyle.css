@@ -12,6 +12,61 @@ p {
     text-align: center;
     color:rgb(75, 22, 136);
 }
+div {
+    background-color: rgb(45, 52, 53);
+}
 h2 {
     text-align: center;
+}
+.navbar ul {
+    /* 
+        Remove bullet points.
+    */
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    /* 
+        No padding.
+    */
+    padding: 0;
+    /* 
+        For navbars use background color that stands out.
+    */
+    background-color: black;
+    text-align: center;
+}
+
+/*  
+    Style individual list items.
+*/
+.navbar li {
+    width: 150 px;
+    background-color: #000;
+    border: 1px solid red;
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+/* 
+    Style links in navbar.
+*/
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+}
+
+table, td {
+    border: 1px solid gray;
+}
+
+input {
+    /* 
+        Show different input on top of each other instead of next to each other.
+    */
+    display: block;
 }
