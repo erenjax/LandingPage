@@ -8,5 +8,6 @@ body {
     font-family: 'Noto Sans SC', sans-serif;
 }
 p {
+    text-align: center
     color:rgb(75, 22, 136);
 }
