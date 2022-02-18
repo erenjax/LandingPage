@@ -10,8 +10,8 @@ body {
 }
 p {
     text-align: center;
-    color:white;
-    background-color:rgb(67, 63, 70);
+    color:rgb(0, 0, 0);
+    background-color:white;
 }
 div {
     background-color: rgb(67, 63, 70);
