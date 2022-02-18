@@ -74,13 +74,20 @@ input {
     display: block;
 }
 
-.row{
+/*.row{
     vertical-align: middle;
     display:flex;
 }
 .column{
     flex: 33.33%;
     padding: 8px
+}
+*/
+.flex-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .box {
