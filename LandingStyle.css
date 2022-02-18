@@ -15,6 +15,9 @@ p {
 }
 div {
     background-color: rgb(67, 63, 70);
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-bottom: 16px;
 }
 h2 {
     text-align: center;
@@ -32,9 +35,7 @@ h1 {
 }
 /*css styles via class attributes */ 
 .navbar ul {
-    /* 
-        Remove bullet points.
-    */
+    
     list-style: none;
     width: 800px;
     margin: 0 auto;
@@ -43,16 +44,14 @@ h1 {
 
     background-color: rgb(67, 63, 70);
     text-align: center;
+
 }
 
 .navbar li {
     width: 150px;
     background-color: black;
     border: 1px solid white;
-    /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-    */
+
     padding: 16px;
     display: inline-block;
     line-height: 24px;
@@ -68,9 +67,6 @@ table, td {
 }
 
 input {
-    /* 
-        Show different input on top of each other instead of next to each other.
-    */
     display: block;
 }
 
@@ -83,11 +79,17 @@ input {
     padding: 8px
 }
 */
-.flex-box{
+.flex-box-row{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     justify-content: space-around;
+}
+.flex-box-collumn{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: stretch;
 }
 
 .box {
